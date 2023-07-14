@@ -5,7 +5,8 @@ pipeline {
             steps {
                 echo 'Welcome to Jenkins World'
                 sh 'echo Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile'
-                sh 'new update'
+                sh 'echo new update'
+                sh 'echo configure: GitHub hook trigger for GITScm polling'
             }
         }
     }
